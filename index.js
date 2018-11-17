@@ -1,6 +1,8 @@
 var animal = 'dog'
 
 function myAnimal() {
+  //it('returns my animal', () => {
+  //  expect(window.myAnimal()).toEqual('dog')
   return animal
 }
 
@@ -8,6 +10,9 @@ function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
+  //it('returns your animal', function(){
+//    expect(window.yourAnimal()).toEqual('cat')
+var animal = "cat";
   return animal
 }
 
